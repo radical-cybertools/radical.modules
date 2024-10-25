@@ -1,5 +1,0 @@
-
-include VERSION README.md LICENSE.md CHANGES.md
-
-recursive-include radical *
-
