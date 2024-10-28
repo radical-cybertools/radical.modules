@@ -2,7 +2,7 @@
 
     file rct module
 
-    Copyright 2024 RADICAL-Project
+    Copyright 2024 RADICAL-Cybertools Project
 
 ]]--
 
@@ -43,4 +43,10 @@ depends_on("cray-python")
 
 prepend_path("PATH",       INSTALL_BIN   )
 prepend_path("PYTHONPATH", INSTALL_PYTHON)
+
+setenv("RADICAL_REPORT",                  "TRUE")
+setenv("RADICAL_PROFILE",                 "TRUE")
+setenv("RADICAL_LOG_LEVEL",               "INFO")
+setenv("RADICAL_UTILS_ZMQ_LOG_LVL",       "INFO")
+setenv("RADICAL_UTILS_HEARTBEAT_LOG_LVL", "INFO")
 
