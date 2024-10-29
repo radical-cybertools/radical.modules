@@ -14,7 +14,7 @@
 local SITE                = "ornl"
 local RESOURCE            = "frontier"
 
-local ROOT                = "/ccs/home/matitov/"
+local ROOT                = "/lustre/orion/world-shared/chm155/radical/"
 local REPO                = "/radical.modules/"
 
 local INSTALL_ROOT        = ROOT .. REPO .. "modules/" .. SITE .. "/" .. RESOURCE
